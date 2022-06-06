@@ -792,7 +792,6 @@ async def advantage_spell_chok(msg):
             if match:
                 gs_parsed.append(match.group(1))
     user = msg.from_user.id if msg.from_user else 0
-    mention_user=msg.from_user.mention if msg.from_user else msg.sender_chat.titl
     movielist = []
     gs_parsed = list(dict.fromkeys(gs_parsed))  # removing duplicates https://stackoverflow.com/a/7961425
     if len(gs_parsed) > 3:
@@ -817,12 +816,12 @@ async def advantage_spell_chok(msg):
         )
     ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
-    zz = await msg.reply(' {msg.from_user.mention} I couldnt find anything related to that, just a sec looking for IMDB suggestions  🧐')
+    zz = await msg.reply(' {user} , I couldnt find anything related to that, just a sec looking for IMDB suggestions  🧐')
     await asyncio.sleep(3)
     zz1 = await zz.edit("Did you mean any one of these?  🤓",
                     reply_markup=InlineKeyboardMarkup(btn))
     await asyncio.sleep(10)
-    zz2 = await zz1.edit(' {msg.from_user.mention} check Whether it is released or not in OTT/ Request as per format 👺')
+    zz2 = await zz1.edit(' {msg.from_user.id} check Whether it is released or not in OTT/ Request as per format 👺')
     
     await asyncio.sleep(5)
     await zz2.delete()
