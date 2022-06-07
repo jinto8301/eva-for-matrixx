@@ -13,6 +13,9 @@ Other features
 -Imdb 
 ❤️‍🔥ＪƝ⟆ ᗷ〇Ƭ⟆❤️‍🔥
 """
+    START_gp_TXT = """𝙷𝙴𝙻𝙾 {}  🙋🏻🙋🏻‍♀️
+I can provide movies/ series, just send movie name to me or you can add me to your group
+"""
     HELP_TXT = """𝙷𝙴𝚈  {}  🙋🏻🙋🏻‍♀️
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: <a href=https://t.me/JNS_BOTS>{}</a> 
