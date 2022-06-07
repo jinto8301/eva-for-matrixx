@@ -135,3 +135,7 @@ ID - <code>{}</code>
 Name - {}
 ❤️‍🔥ＪƝ⟆ ᗷ〇Ƭ⟆❤️‍🔥
 """
+    MAIL_ID_TXT = """
+    <b>Currently you are using this mail for heroku account</b>\n
+ID - <code>{}</code>
+"""
