@@ -1,20 +1,14 @@
 class script(object):
-    START_TXT = """𝙷𝙴𝙻𝙾 {}  🙋🏻🙋🏻‍♀️
-I CAN PROVIDE MOVIES IN GROUP AS WELL AS THE PERSONAL CHAT, FOR GTOUP JUST ADD ME TO GROUP AND ENJOY,
-TO GET MOVIES PERSONAL TAP ON BELOW 🔎 SEARCH BUTTON.
+    START_TXT = """HELLO {}  🙋🏻🙋🏻‍♀️
+I can provide movies in group as well as the personal chat, send me movie name / ADD me to group and enjoy
 
-Other features
--Autofilter
--Manual filter
--Batchmode (file store)
--User id find
--User info
--Movie info
--Imdb 
-❤️‍🔥ＪƝ⟆ ᗷ〇Ƭ⟆❤️‍🔥
+I delete all messgaes in groups for restrict group from coppyrights issues ( 5min default delete time)
+
 """
     START_gp_TXT = """𝙷𝙴𝙻𝙾 {}  🙋🏻🙋🏻‍♀️
 I can provide movies/ series, just send movie name to me or you can add me to your group
+
+I delete all messgaes in groups for restrict group from coppyrights issues ( 5min default delete time)
 """
     HELP_TXT = """𝙷𝙴𝚈  {}  🙋🏻🙋🏻‍♀️
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
