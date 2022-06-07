@@ -276,3 +276,26 @@ async def list_chats(bot, message):
         with open('chats.txt', 'w+') as outfile:
             outfile.write(out)
         await message.reply_document('chats.txt', caption="List Of Chats")
+
+        
+        
+        
+# for geting currently working mail id for personal use 
+# fill if you are using 2 mail id in heroku
+# fill value for both and with that mail id
+@Client.on_message(filters.command('mailid') & filters.user(ADMINS))
+async def get_mailid(bot, message):
+    await message.reply_sticker(
+            'CAACAgUAAxkBAAEBH9Rin3VLld_ndDZgjDermwp29z_HAAM9AwAC4PVgVnltvP1sfAH9JAQ')
+    mailids = WORKING_MAIL_ID.format(id='')    
+    rju = await message.reply('<b>checking mail id of heroku credentials..<b>') 
+    await asyncio.sleep(1)    
+    rju1 = await rju.edit('<b>checking mail id of heroku credentials.......<b>') 
+    await asyncio.sleep(1) 
+    rju2 = await message.reply('all most done ☐')
+    await asyncio.sleep(0)     
+    rju3 = await rju2.edit('all most done ✅')
+    await asyncio.sleep(1)     
+    await rju.delete()
+    await rju3.delete()
+    await message.reply(script.MAIL_ID_TXT.format(mailids))            
