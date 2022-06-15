@@ -5,6 +5,13 @@ I can provide movies in group as well as the personal chat, send me movie name /
 I delete all messgaes in groups for restrict group from coppyrights issues ( 5min default delete time)
 
 """
+    START_grp_TXT = """
+    Hello {},
+My Name Is <a href=https://t.me/{}>{}</a>,
+I can provide movies in group as well as the personal. ADD me to your group as admin or just send movie name to me personally
+    
+    
+    """
     START_gp_TXT = """𝙷𝙴𝙻𝙾 {}  🙋🏻🙋🏻‍♀️
 I can provide movies/ series, just send movie name to me or you can add me to your group
 
