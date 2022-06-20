@@ -417,7 +417,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
              ],[
-            InlineKeyboardButton('❤️‍🔥ＪƝ⟆ ᗷ〇Ƭ⟆❤️‍🔥', url='http://t.me/jns_bots')
+            InlineKeyboardButton('❤️‍🔥Cinema Tharavadu❤️‍🔥', url='http://t.me/cinema_tharavadu')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -439,7 +439,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🏠 Home', callback_data='start'),
             InlineKeyboardButton('🔮 Status', callback_data='stats')
         ],[
-            InlineKeyboardButton('❤️‍🔥ＪƝ⟆ ᗷ〇Ƭ⟆❤️‍🔥', url='http://t.me/jns_bots')
+            InlineKeyboardButton('❤️‍🔥Cinema Tharavadu❤️‍🔥', url='http://t.me/cinema_tharavadu')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -450,7 +450,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         
     elif query.data == "aboutgroup":
         buttons = [[
-            InlineKeyboardButton('❤️‍🔥ＪƝ⟆ ᗷ〇Ƭ⟆❤️‍🔥', url='http://t.me/jns_bots')
+            InlineKeyboardButton('❤️‍🔥Cinema Tharavadu❤️‍🔥', url='http://t.me/cinema_tharavadu')
         ],[
             InlineKeyboardButton('🧨ᴄʟᴏsᴇ🧨', callback_data='close_data')
         ]]
@@ -467,10 +467,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         
     elif query.data == "about":
         buttons = [[
+            InlineKeyboardButton('🔥DEV🔥', url='http://t.me/JINTONS')
+        ],[
             InlineKeyboardButton('🏠 Home', callback_data='start'),
             InlineKeyboardButton('🔐 Close', callback_data='close_data')
-        ],[
-            InlineKeyboardButton('❤️‍🔥ＪƝ⟆ ᗷ〇Ƭ⟆❤️‍🔥', url='http://t.me/jns_bots')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -482,7 +482,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('👩‍🦯 Back', callback_data='about')
         ],[
-            InlineKeyboardButton('❤️‍🔥ＪƝ⟆ ᗷ〇Ƭ⟆❤️‍🔥', url='http://t.me/jns_bots')
+            InlineKeyboardButton('❤️‍🔥Cinema Tharavadu❤️‍🔥', url='http://t.me/cinema_tharavadu')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -526,7 +526,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('👩‍🦯 Back', callback_data='help')
         ],[
-            InlineKeyboardButton('❤️‍🔥ＪƝ⟆ ᗷ〇Ƭ⟆❤️‍🔥', url='http://t.me/jns_bots')
+            InlineKeyboardButton('❤️‍🔥Cinema Tharavadu❤️‍🔥', url='http://t.me/cinema_tharavadu')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -538,7 +538,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('👩‍🦯 Back', callback_data='help')
         ],[
-            InlineKeyboardButton('❤️‍🔥ＪƝ⟆ ᗷ〇Ƭ⟆❤️‍🔥', url='http://t.me/jns_bots')
+            InlineKeyboardButton('❤️‍🔥Cinema Tharavadu❤️‍🔥', url='http://t.me/cinema_tharavadu')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -551,7 +551,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('👩‍🦯 Back', callback_data='help'),
             InlineKeyboardButton('👮‍♂️ Admin', callback_data='admin')
         ],[
-            InlineKeyboardButton('❤️‍🔥ＪƝ⟆ ᗷ〇Ƭ⟆❤️‍🔥', url='http://t.me/jns_bots')
+            InlineKeyboardButton('❤️‍🔥Cinema Tharavadu❤️‍🔥', url='http://t.me/cinema_tharavadu')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -563,7 +563,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('👩‍🦯 Back', callback_data='extra')
         ],[
-            InlineKeyboardButton('❤️‍🔥ＪƝ⟆ ᗷ〇Ƭ⟆❤️‍🔥', url='http://t.me/jns_bots')
+            InlineKeyboardButton('❤️‍🔥Cinema Tharavadu❤️‍🔥', url='http://t.me/cinema_tharavadu')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -576,7 +576,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('👩‍🦯 Back', callback_data='help'),
             InlineKeyboardButton('♻️', callback_data='rfrsh')
         ],[
-            InlineKeyboardButton('❤️‍🔥ＪƝ⟆ ᗷ〇Ƭ⟆❤️‍🔥', url='http://t.me/jns_bots')
+            InlineKeyboardButton('❤️‍🔥Cinema Tharavadu❤️‍🔥', url='http://t.me/cinema_tharavadu')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         total = await Media.count_documents()
@@ -597,7 +597,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('👩‍🦯 Back', callback_data='help'),
             InlineKeyboardButton('♻️', callback_data='rfrsh')
         ],[
-            InlineKeyboardButton('❤️‍🔥ＪƝ⟆ ᗷ〇Ƭ⟆❤️‍🔥', url='http://t.me/jns_bots')
+            InlineKeyboardButton('❤️‍🔥Cinema Tharavadu❤️‍🔥', url='http://t.me/cinema_tharavadu')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         total = await Media.count_documents()
